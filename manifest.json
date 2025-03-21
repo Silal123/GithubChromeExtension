@@ -20,11 +20,11 @@
         {
             "matches": ["https://github.com/*"],
             "js": ["scripts/github_all.js"]
-        },
-        {
-            "matches": ["https://github.com/*/*/settings"],
-            "js": ["scripts/fill_confirm.js"]
         }//,
+        //{
+        //    "matches": ["https://github.com/*"],
+        //    "js": ["scripts/fill_confirm.js"]
+        //}//,
         //{
         //    "matches": ["https://github.com/*/*"],
         //    "js": ["scripts/repo_instant_delete.js"]
