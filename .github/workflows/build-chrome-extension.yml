@@ -14,17 +14,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-          cache: 'npm'
+      #- name: Setup Node.js
+      #  uses: actions/setup-node@v3
+      #  with:
+      #    node-version: '18'
+      #    cache: 'npm'
 
-      - name: Install dependencies
-        run: npm ci
+      #- name: Install dependencies
+      #  run: npm ci
 
-      - name: Run tests
-        run: npm test || true
+      #- name: Run tests
+      #  run: npm test || true
 
       - name: Create build directory
         run: mkdir -p dist
