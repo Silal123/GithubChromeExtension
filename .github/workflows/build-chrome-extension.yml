@@ -44,7 +44,8 @@ jobs:
           --exclude="*.log" \
           --exclude="*.test.js" \
           --exclude="__mocks__" \
-          --exclude="coverage"
+          --exclude="coverage" \
+          --exclude="github-banner.png"
 
       - name: Build extension
         run: |
