@@ -50,7 +50,7 @@ if (informationContainer) {
 
         if (deleteButton) {
             deleteButton.addEventListener('click', () => {
-                fetch('https://github.com/Silal123/KahootBot/settings/delete', { method: 'POST' })
+                
             });
         }
     });
