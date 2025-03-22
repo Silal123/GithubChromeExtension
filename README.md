@@ -12,3 +12,7 @@ This is a chrome extension wich adds a few features to Github
 How to install thie Projekt
 
 **Comming Soon**
+
+## Features
+
+#### - Autofill of the Delete field where you need to put in the name of the repo
